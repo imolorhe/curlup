@@ -1,0 +1,21 @@
+{
+  "name": "js-curl",
+  "version": "1.0.0",
+  "description": "Parse cURL commands.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "curl",
+    "parse"
+  ],
+  "author": "Samuel Imolorhe <samuelimolo4real@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.4.4"
+  },
+  "dependencies": {
+    "tokenizer": "^1.1.2"
+  }
+}
