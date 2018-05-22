@@ -16,6 +16,5 @@
     "jest": "^22.4.4"
   },
   "dependencies": {
-    "tokenizer": "^1.1.2"
   }
 }
