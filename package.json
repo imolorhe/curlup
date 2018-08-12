@@ -1,10 +1,13 @@
 {
-  "name": "js-curl",
+  "name": "curlup",
   "version": "1.0.0",
   "description": "Parse cURL commands.",
-  "main": "index.js",
+  "main": "./index.js",
+  "repository": {
+    "url": "https://github.com/imolorhe/js-curl"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/jest --watch index.spec.js"
   },
   "keywords": [
     "curl",

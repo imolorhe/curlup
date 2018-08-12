@@ -1,8 +1,4 @@
 
-const sum = (a, b) => {
-    return a + b;
-};
-
 const LITERAL_NAMES = {
     CURL: 'curl',
     INCLUDE_HEADERS: 'include-headers',
@@ -79,7 +75,7 @@ const trimValue = val => val.trim().replace(/^('|")\s*/, '').replace(/\s*('|")$/
 const isURL = val => /((([A-Za-z]{3,9}:(?:\/\/)?)(?:[\-;:&=\+\$,\w]+@)?[A-Za-z0-9\.\-]+|(?:www\.|[\-;:&=\+\$,\w]+@)[A-Za-z0-9\.\-]+)((?:\/[\+~%\/\.\w\-_]*)?\??(?:[\-\+=&;%@\.\w_]*)#?(?:[\.\!\/\\\w]*))?)/.test(val);
 
 const parseCurl = curlCmd => {
-    let cmd = curlCmd;
+    let cmd = curlCmd.trim();
     const tokens = [];
     const result = {
         url: '',
@@ -157,7 +153,6 @@ const parseCurl = curlCmd => {
     return result;
 };
 
-module.exports = {
-    sum,
+export default {
     parseCurl
 };
