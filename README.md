@@ -1,8 +1,8 @@
-##Curlup
+## Curlup
 
 Parses cURL command into a JavaScript object.
 
-###Usage
+### Usage
 
 ```js
 import { parseCurl } from 'curlup';
