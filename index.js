@@ -153,6 +153,6 @@ const parseCurl = curlCmd => {
     return result;
 };
 
-export default {
+module.exports = {
     parseCurl
 };

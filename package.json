@@ -7,7 +7,7 @@
     "url": "https://github.com/imolorhe/js-curl"
   },
   "scripts": {
-    "test": "./node_modules/.bin/jest --watch index.spec.js"
+    "test": "./node_modules/.bin/jest index.spec.js"
   },
   "keywords": [
     "curl",
